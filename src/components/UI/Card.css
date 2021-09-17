@@ -1,0 +1,34 @@
+
+
+.card{
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    margin: 5px 4px;
+    background-color: rgba(0,0,255,0.01);
+    text-align: center;
+}
+
+.day{
+    font-weight: bold;
+}
+
+.temp{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+    .card{
+        padding: 0;
+    }
+    .card > div{
+        display: inline-block;
+        margin: 0 10%;
+    }
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}

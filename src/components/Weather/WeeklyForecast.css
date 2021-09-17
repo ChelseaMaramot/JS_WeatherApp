@@ -1,0 +1,11 @@
+.day{
+    justify-content: center;    
+    padding-right: 5px;
+}
+
+@media only screen and (min-width: 600px){
+    .day{
+        display: flex;
+    }
+    
+}
